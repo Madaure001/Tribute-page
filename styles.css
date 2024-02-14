@@ -1,0 +1,79 @@
+
+html{
+    background-color: rgb(180, 174, 174);
+   } 
+  
+  body{
+    width: 90vw;
+    height: 100vh;
+    color: white;
+    overflow: auto;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: sans-serif;
+    
+  
+  }
+  figure{
+    padding: 50px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    
+    
+    border-radius: 25px;
+    
+  }
+  img{
+    display: block;
+    
+    height: 70vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 4%;
+  }
+  figcaption{
+    color: black;
+  }
+  #image{
+    
+    max-width: 100%;
+    height: auto;
+  }
+  p.caption{
+    width: 100%;
+    color: black;  
+    margin: auto;
+  }
+  
+  h2{
+    color: white;
+  }
+  .tribute-info{
+  width: 55%;
+  text-align: left;
+  margin: 70px auto;
+  color: black;
+  }
+  
+  bold{
+  font-weight: bold;
+  }
+  .quote{
+    color: white;
+    padding-left: auto;
+    text-align: center;
+  }
+  #tribute-more-info{
+    color: black;
+  }
+  #tribute-link{
+    color: rgb(74, 124, 152);
+  }
+  @media only screen and (max-width: 700px){
+    #image{
+      margin: auto;
+      max-width: 100%;
+    }
+  }
